@@ -5,6 +5,7 @@ let description = document.querySelector(".current .weather");
 let city = document.querySelector(".location .city");
 let date = document.querySelector(".location .date");
 
+
 button.addEventListener("click", function () {
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${inputvalue.value}&units=metric&appid=897c08875f83c8eafb1bcd5f76d88f18`
